@@ -8,8 +8,12 @@ public class Problem02Test {
     @Test
     public void test3Square() {
 
-        String expected = "Magic Square of size 3\n" + "----------------------\n" + "  6   7   2 \n" + "  3   4   8 \n"
-                + "  9   1   5 \n" + "Sum in each row & each column = 3*(3^2+1)/2 = 15";
+        String expected = "Magic Square of size 3\n" + 
+        "----------------------\n" + 
+        "  6   7   2 \n" + 
+        "  3   4   8 \n" + 
+        "  9   1   5 \n" +
+        "Sum in each row & each column = 3*(3^2+1)/2 = 15";
 
         String actual = Problem02.magicSquare(3);
 
